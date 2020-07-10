@@ -1,0 +1,29 @@
+git log --oneline
+ - fork
+ - git clone git@github.com:awesome-academy/BTVN-PR20015.git
+ - git remote add ten_remote_moi git@github.com:awesome-academy/BTVN-PR20015.git
+ - git checkout -b ten_nhanh_moi
+ - git add ./-A/ten_file
+ - git commit -m "tên commit"
+ - git push origin tren_nhanh
+ Tạo pull request -> github_merge
+ - git checkout master
+ - git pull awesome master
+ - git checkout ten_nhanh
+ - git rebase master
+ 	+ vào file conflict
+ 	+ fix conflict.....
+ -git add .
+ -git rebase --continue
+ git push -f origin ten_nhanh   
+
+
+
+------------------
+git rebase -i HEAD~n
+pick.....
+pick--- -> s
+pick......-> s
+ctrl +X
+Y
+THêm dấu # cho commit muốn bỏ. 

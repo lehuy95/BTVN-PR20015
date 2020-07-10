@@ -1,0 +1,14 @@
+$ git rebase -i HEAD ~số_lượng_commit
+giữ pick đầu tiên
+các pick khác đổi thành s
+ctrl + X
+Y
+Enter
+
+Xem có bao nhiêu commit là dòng "không có dấu # đằng trước"
+Đặt dấu # vào trước commit muốn bỏ (- lưu ý để lại 1 dòng không có dấu #
+				      - các dòng khác thêm # đằng trước)
+ctrl + X
+Y
+Enter				      
+				      
