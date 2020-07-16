@@ -15,8 +15,8 @@ git log --oneline
  	+ fix conflict.....
  -git add .
  -git rebase --continue
- git push -f origin ten_nhanh   
-
+ git push -f origin ten_nhanh master 
+		
 
 
 ------------------
